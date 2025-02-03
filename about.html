@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - School Information Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about_wrapper, .mission_wrapper
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="">Mission</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>school <br class="d-none d-lg-block"></span> information portal</h3>
+                    <p>Schools exist to provide children with the knowledge, skills, and social experiences they need to grow, succeed, and contribute to society. Here's why school is important for children:</p>
+                    <p>Schools teach essential subjects like math, language, science, and history, giving children the tools they need to understand the world.</p>
+                    <a href="#" class="main-btn mt-4">Explore</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img decoding="async" src="./imgs/i (1).png" class="img-fluid" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="mission_wrapper">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide a safe and nurturing environment where children can learn, grow, and thrive. We aim to foster a love for learning and equip students with the skills they need for a successful future.</p>
+        </div>
+    </section>
+
+    <section id="team" class="team_wrapper">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team_member">
+                        <img src="./imgs/team1.jpg" alt="Team Member 1">
+                        <h3>John Doe</h3>
+                        <p>Principal</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team_member">
+                        <img src="./imgs/team2.jpg" alt="Team Member 2">
+                        <h3>Jane Smith</h3>
+                        <p>Vice Principal</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team_member">
+                        <img src="./imgs/team3.jpg" alt="Team Member 3">
+                        <h3>Emily Johnson</h3>
+                        <p>Head Teacher</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer_wrapper">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us!</p>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
